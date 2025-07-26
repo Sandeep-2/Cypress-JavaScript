@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "live-server --port=1234",
     "test": "node_modules\\.bin\\cypress run",
     "headedTest": "npm run test -- --headed",
     "chromeTest": "npm run test -- --browser chrome --parallel",
@@ -13,7 +14,8 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^14.5.1"
+    "cypress": "^14.5.1",
+    "live-server": "^1.2.0"
   },
   "dependencies": {
     "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",

@@ -48,7 +48,7 @@ module.exports = defineConfig({
       // implement node event listeners here
     },
     specPattern: [
-      'cypress/integration/examples/*.cy.js','cypress/integration/greenKart/*.cy.js','cypress/integration/examples/BDD/example/*.js'
+      'cypress/integration/examples/*.cy.js','cypress/integration/greenKart/*.cy.js'
     ]
     // specPattern: 'cypress/integration/examples/*.cy.js'
   },
