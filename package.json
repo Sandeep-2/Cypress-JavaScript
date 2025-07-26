@@ -7,7 +7,7 @@
     "start": "live-server --port=1234",
     "test": "node_modules\\.bin\\cypress run",
     "headedTest": "npm run test -- --headed",
-    "chromeTest": "npm run test -- --browser chrome --parallel",
+    "chromeTest": "npm run test -- --browser chrome --record --key dc9af3c2-4c43-4825-82e3-0a52319a7841 --parallel",
     "recordDashBoardTestChrome": "npm run test -- --record --key dc9af3c2-4c43-4825-82e3-0a52319a7841 --reporter mochawesome",
     "GreenKartTest": "npm run test -- --spec \"cypress/integration/greenKart/*\""
   },
